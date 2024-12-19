@@ -17,10 +17,34 @@ body {
     margin-left: -10px;
     margin-right: -10px;
     margin-top: -10px;
+    gap:20px;
+}
+
+.navbar{
+    display: flex;
+    background-color: lightblue;
+    gap:20px;
+    padding-left: 2%;
+    align-items: center;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -20px;
+
+
+}
+.navbar a{
+    color:black;
+    text-decoration: none;
 }
 
 .stats-container {
     display: flex;
+    align-items: center;;
+}
+
+.stats-container:hover{
+    cursor: pointer;
+    box-shadow:  0 0 30px lightblue ;
 }
 
 .stats-card {
@@ -72,4 +96,11 @@ button {
     padding: 1%;
     margin: 1%;
     border-radius: 7px;
+}
+
+#search-input{
+    border-radius: 7px;
+    border: none;
+    padding: 1%;
+    margin: 1%;
 }
